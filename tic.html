@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tac.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>My TicTacToe</li>
+        </ul>
+        <button id="reset">Reset</button>
+    </nav>
+
+    <div class="container">
+        <div class="game">
+            <div class="kata">
+            <button class="box bt-0 bl-3"></button>
+            <button class="box bl-3"></button>
+            <button class="box bl-3 bb-1"></button>
+            </div>
+            <div class="kata">
+                <button class="box bt-0"></button>
+                <button class="box "></button>
+                <button class="box bb-1"></button>
+            </div>
+            <div class="kata">
+                <button class="box bt-0 br-4"></button>
+                <button class="box br-4"></button>
+                <button class="box br-4 bb-1"></button>
+            </div>
+            
+        </div>
+        <div class="gameInfo">
+            <h1>Welcome  To MyTicTacToe</h1>
+            <div>
+                <span class="info">Turn For O</span>
+            </div>
+            <div class="countWinning">
+                <div class="cont">
+                    <div class="userName">X</div>
+                    <div class="XWin">0</div>
+                </div>
+                <div class="cont">
+                    <div class="userName">O</div>
+                    <div class="OWin">0</div>
+                </div>
+            </div>
+            <p id="msg">Lets Play</p>
+            <button id="newGame">New Game</button>
+        </div>
+        <div class="imageBox hid">
+            <img src="excited.gif" alt="">
+        </div>
+    </div>
+
+    <script src="toe.js"></script>
+</body>
+</html>

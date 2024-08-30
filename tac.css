@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Poppins:wght@300;400;500;600&family=Ubuntu&family=Varela+Round&display=swap');
+
+/* *********For Body********* */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+  background-color: #9bc1bc;
+  text-align: center;
+}
+
+/* *************For Header************* */
+nav
+{
+    background-color: #5d576b;
+    color: white;
+    height: 65px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 0 14px;
+    font-family: "Matemasie", sans-serif;
+}
+
+nav ul { list-style-type: none;  }
+#reset
+{
+  width: 20vmin;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: #003253;
+  color: #fff;
+  border-radius: 1rem;
+  border: 2px solid black;
+  margin-left: 70%;
+}
+
+/* ****************Main containt************************* */
+.container
+{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ********Zero Kata********* */
+.game
+{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  height: 20vmin;
+  width: 20vmin;
+  border: 8px solid rgb(0, 0, 0);
+  box-shadow: 0 0 1rem rgba(0 0 0 0.4);
+  font-size: 14vmin;
+  color: #ffffff;
+  background-color: #9bc1bc;
+}
+
+.box:hover
+{
+  cursor: pointer;
+  background-color: #5ec4b6;
+}
+
+.bt-0{  border-top: none; }
+
+.bb-1{  border-bottom: none; }
+.bl-3{  border-left: none; }
+.br-4{  border-right: none;}
+
+
+/* *****************Information About Game******************** */
+.gameInfo
+{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #6d5a9b;
+  font-size: 2vmin;
+}
+.info
+{
+  color: #ed6a5a;
+font-size: 6vmin;
+}
+
+.countWinning
+{
+  display: flex;
+}
+.cont
+{
+  height: 90px;
+  width: 90px;
+  color: #191913;
+  border: 3px solid #000000;
+  margin: 3px;
+}
+.userName
+{
+  font-size: 3rem;
+  border-bottom: 2px solid black;
+  color: #655d78;
+}
+.XWin {font-size: 2rem;}
+.OWin{font-size: 2rem;}
+
+#msg
+{
+  color: #bfec89;
+font-size: 8vmin;
+}
+
+#newGame
+{
+  width: 35vmin;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
+/* *************for GIF ************** */
+
+.imageBox
+{
+  height: 120px;
+  width: 120px;
+  background-size: cover;
+}
+.hid{ display: none; }
+
