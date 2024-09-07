@@ -137,8 +137,7 @@ nav ul { list-style-type: none;  }
     height: 20vmin;
     width: 20vmin;
     border: 8px solid rgb(0, 0, 0);
-    box-shadow: 0 0 1rem rgba(0 0 0 0.4);
-    font-size: 14vmin;
+    font-size: 12vmin;
     color: #ee9b00;
     background-color: #e9d8a6;
   }
